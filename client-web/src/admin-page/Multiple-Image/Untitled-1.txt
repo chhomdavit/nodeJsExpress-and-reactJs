@@ -1,0 +1,42 @@
+const [imgFiles, setImgFiles] = useState(null)
+
+ const handlePreview = async (file) => {
+  setImgFile(URL.createObjectURL(file.target.files[0]))
+ };
+
+ useEffect(() => {
+  if (items != null) {
+    form.setFieldsValue({
+      image_name: items.image_name,
+      dob: items.dob,
+    });
+    setDob(dayjs(items.dob));
+  }
+}, [items]);
+
+<Col span={12}>
+                <div style={{ width: 100, height: 100}}>
+                  {imgFiles != null ? (
+                    <div>
+                      <Image
+                        src={imgFiles}
+                        style={{ width: 100 }}
+                        alt={imgFiles}
+                      />
+                    </div>
+                  )
+                  :
+                  (
+                      <div className='animate__animated animate__fadeInRight'>
+                        {items &&
+                          <Image
+                            src={Config.imagePath + items.images}
+                            alt={items.ima}
+                            style={{ width: 100, height: 100,borderRadius:10,padding: 5, margin: 'auto',border: '1px solid red'}}
+                          />
+                        }
+                      </div>
+                  )
+                  }
+                </div>
+              </Col> rewrite this code get multi images when update 

@@ -1,0 +1,18 @@
+.pageHeaderContainer{
+    padding: 10px;
+    background-color: rgb(211, 211, 38);
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rowHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.filterContent{
+    margin-left: 15px;
+}

@@ -1,0 +1,26 @@
+.loging-form{
+    margin: auto;
+    border: 1px solid #eee;
+    padding: 25px;
+    width: 420px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 10px #e6e3e3;
+    box-shadow: rgba(149, 149, 166, 0.2) 0px 7px 29px 0px;
+    /* background: rgb(131,58,180);
+
+    
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.33237044817927175) 50%, rgba(252,176,69,1) 100%); */
+}
+
+.login-form-forgot{
+    text-align: right;
+    margin-top: 10px;
+}
+
+.login-form-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
